@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+ height: 1700px;
+ background-color: rgb(213, 189, 160);
+}
+
+.header{
+    width:100%;
+    height:100px;
+     top: 0;
+    background-color: #004236;
+  
+}
+
+.logo{
+   max-width: 54px;
+    max-height: 100px;
+    margin-left:730px;
+    margin-top: 15px;
+    
+}
+
+.featured-header{
+    margin-top: 40px;
+ }
+    
+.featured-title{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 32px;
+    margin: 0 0 17px 0;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #004236;
+    text-align: center;
+    }
+    
+
+.featured-items{
+    margin-top: 40px;
+  
+}
+
+.featured-img img{
+    width:260px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+}
+
+ .featured-img:hover{
+    transform: scale(1.097560975609756,1.11);
+    transition: 0.6s;
+} 
+
+.featured-content{margin-top: 25px;}
+
+.featured-content h3{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    color: #004236;
+    margin-bottom: 13px;
+    line-height: 1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.featured-content h3:hover{
+    text-decoration: underline;
+    
+}
+.featured-content span{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 18px;
+    color: #cd2026;
+}
+
+/* ////////////////////////////////// */
+.selected-items{
+    margin-top: 60px;
+}
+
+.selected-items-header h2{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 32px;
+    margin: 0 0 17px 0;
+    font-weight: 500;
+    line-height: normal;
+    color: #004236;
+    text-align: center;
+}
+
+#cart{
+   border:1px solid #004236;
+   border-radius: 10px;
+     width: 80%;
+    height: 200px; 
+    margin: auto;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+    color: #004236;
+    text-align: center;
+    box-shadow: 5px 10px 8px 10px #888888;
+   
+}
+
+#btn{
+    background-color: #004236;
+    border-radius: 10px;
+    color: white;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 685px;
+    font-family: 'Itim', cursive;
+}
+
+#total-price{
+
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 575px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(162, 143, 120);
+    color: #004236;
+    animation-name: price;
+    animation-duration: 5s;
+    font-weight: bold;
+}
+
